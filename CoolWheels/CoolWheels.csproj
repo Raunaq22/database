@@ -70,6 +70,7 @@
     <Content Include="About.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="javascr.js" />
     <Content Include="Products.aspx" />
     <Content Include="styles.css" />
     <Content Include="Web.config" />

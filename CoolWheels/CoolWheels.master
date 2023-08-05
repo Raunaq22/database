@@ -4,15 +4,16 @@
     <title>CoolWheels - <%= Page.Title %></title>
     <link rel="stylesheet" href="styles.css" />
     <script src="jquery.min.js"></script>
+     <script src="javascr.js"></script>
     <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
 </head>
 <body>
     <header>
-        <nav>
-            <div class="logo">
-                <img src="Images/icon.png" alt="CoolWheels Logo" class="logo-image" />
-                <div class="logo-text">CoolWheels</div>
-            </div>
+        <div class="logo">
+            <img src="Images/icon.png" alt="CoolWheels Logo" class="logo-image" />
+            <div class="logo-text">coolwheels</div>
+        </div>
+        <nav class="navbar">
             <ul>
                 <li><a href="Default.aspx" id="navHome">Home</a></li>
                 <li><a href="Products.aspx" id="navProducts">Products</a></li>
@@ -31,6 +32,7 @@
             <p>&copy; <%= DateTime.Now.Year %> CoolWheels. All rights reserved. | <a href="PrivacyPolicy.aspx">Privacy Policy</a> | <a href="TermsOfUse.aspx">Terms of Use</a></p>
         </div>
     </footer>
+
 
     <script>
         $(document).ready(function () {
